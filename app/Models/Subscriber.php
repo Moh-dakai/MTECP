@@ -3,10 +3,13 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Stancl\Tenancy\Database\Concerns\BelongsToTenant;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Subscriber extends Model
 {
+    use BelongsToTenant;
+
     protected $fillable = [
         'tenant_id',
         'email',

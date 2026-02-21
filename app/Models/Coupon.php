@@ -4,9 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Stancl\Tenancy\Database\Concerns\BelongsToTenant;
 
 class Coupon extends Model
 {
+    use BelongsToTenant;
+
     protected $fillable = [
         'tenant_id',
         'code',
@@ -47,7 +50,7 @@ class Coupon extends Model
     public function isValid(): bool
     {
         $now = now();
-        
+
         if (!$this->is_active) {
             return false;
         }
