@@ -2,58 +2,12 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use Stancl\Tenancy\Database\Models\Tenant as BaseTenant;
+use Stancl\Tenancy\Database\Concerns\HasDomains;
 
-class Tenant extends Model
+class Tenant extends BaseTenant
 {
-    protected $fillable = [
-        'name',
-        'slug',
-        'domain',
-        'subdomain',
-        'logo',
-        'primary_color',
-        'secondary_color',
-        'font_family',
-        'is_active',
-        'settings',
-    ];
+    use HasDomains;
 
-    protected $casts = [
-        'is_active' => 'boolean',
-        'settings' => 'array',
-    ];
-
-    /**
-     * Get the users for the tenant.
-     */
-    public function users(): HasMany
-    {
-        return $this->hasMany(User::class);
-    }
-
-    /**
-     * Get the products for the tenant.
-     */
-    public function products(): HasMany
-    {
-        return $this->hasMany(Product::class);
-    }
-
-    /**
-     * Get the orders for the tenant.
-     */
-    public function orders(): HasMany
-    {
-        return $this->hasMany(Order::class);
-    }
-
-    /**
-     * Get the categories for the tenant.
-     */
-    public function categories(): HasMany
-    {
-        return $this->hasMany(Category::class);
-    }
+// We do NOT use HasDatabase here because we are implementing single-database multi-tenancy.
 }
