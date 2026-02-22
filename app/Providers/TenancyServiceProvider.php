@@ -26,13 +26,7 @@ class TenancyServiceProvider extends ServiceProvider
             Events\CreatingTenant::class => [],
             Events\TenantCreated::class => [
                 JobPipeline::make([
-                    // Jobs\CreateDatabase::class ,
-                    // Jobs\MigrateDatabase::class ,
-                    // Jobs\SeedDatabase::class,
-
-                    // Your own jobs to prepare the tenant.
-                    // Provision API keys, create S3 buckets, anything you want!
-
+                    \App\Jobs\SeedTenantRoles::class ,
                 ])->send(function (Events\TenantCreated $event) {
             return $event->tenant;
         })->shouldBeQueued(false), // `false` by default, but you probably want to make this `true` for production.
@@ -105,7 +99,7 @@ class TenancyServiceProvider extends ServiceProvider
         $this->makeTenancyMiddlewareHighestPriority();
 
         Event::listen(Events\TenancyInitialized::class , function (Events\TenancyInitialized $event) {
-            setPermissionsTeamId($event->tenant->getAttribute('id'));
+            setPermissionsTeamId($event->tenancy->tenant->id);
         });
 
         Event::listen(Events\TenancyEnded::class , function (Events\TenancyEnded $event) {
