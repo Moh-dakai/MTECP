@@ -46,7 +46,9 @@ class StoreOnboarding extends Component
 
         $tenant = Tenant::create([
             'id' => $tenantId,
-            'name' => $this->store_name, // If we added it to migration, otherwise this ignores it depending on schema. Actually stancl/tenancy uses custom data JSON or columns.
+            'name' => $this->store_name,
+            'color_primary' => '#4f46e5', // Default Indigo
+            'color_secondary' => '#4338ca', // Default Indigo Dark
         ]);
 
         $domainStr = $tenantId . '.mtecp.test';
