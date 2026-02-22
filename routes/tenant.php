@@ -8,7 +8,7 @@ use Stancl\Tenancy\Middleware\InitializeTenancyByDomain;
 use Stancl\Tenancy\Middleware\PreventAccessFromCentralDomains;
 
 /* |-------------------------------------------------------------------------- | Tenant Routes |-------------------------------------------------------------------------- | | Here you can register the tenant routes for your application. | These routes are loaded by the TenantRouteServiceProvider. | | Feel free to customize them however you want. Good luck! | */
-throw new \Exception('TENANT.PHP IS BEING EXECUTED!');
+
 \Illuminate\Support\Facades\Log::info('Evaluating routes/tenant.php');
 
 Route::get('/', function () {
