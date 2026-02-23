@@ -14,3 +14,9 @@ use Stancl\Tenancy\Middleware\PreventAccessFromCentralDomains;
 Route::get('/', function () {
     return view('storefront.home');
 });
+
+// Admin Dashboard Routes for Tenant
+Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
+    Route::get('/categories', \App\Livewire\Admin\CategoryManager::class)->name('categories');
+    Route::get('/products', \App\Livewire\Admin\ProductManager::class)->name('products');
+});
