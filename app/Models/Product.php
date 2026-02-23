@@ -16,26 +16,19 @@ class Product extends Model
         'category_id',
         'name',
         'slug',
-        'description',
-        'price',
-        'compare_price',
         'sku',
-        'stock_quantity',
-        'low_stock_threshold',
+        'description',
+        'price_cents',
+        'stock',
         'is_active',
         'is_featured',
-        'meta_title',
-        'meta_description',
-        'weight',
-        'dimensions',
     ];
 
     protected $casts = [
         'is_active' => 'boolean',
         'is_featured' => 'boolean',
-        'price' => 'decimal:2',
-        'compare_price' => 'decimal:2',
-        'dimensions' => 'array',
+        'price_cents' => 'integer',
+        'stock' => 'integer',
     ];
 
     /**
@@ -47,7 +40,7 @@ class Product extends Model
     }
 
     /**
-     * Get the category that owns the product.
+     * Get the primary category.
      */
     public function category(): BelongsTo
     {
@@ -55,34 +48,18 @@ class Product extends Model
     }
 
     /**
-     * Get the product variants.
+     * Get all categories assigned to this product via pivot.
      */
-    public function variants(): HasMany
+    public function categories()
     {
-        return $this->hasMany(ProductVariant::class);
-    }
-
-    /**
-     * Get the product media.
-     */
-    public function media(): HasMany
-    {
-        return $this->hasMany(ProductMedia::class);
-    }
-
-    /**
-     * Get the product tags.
-     */
-    public function tags(): HasMany
-    {
-        return $this->hasMany(ProductTag::class);
+        return $this->belongsToMany(Category::class);
     }
 
     /**
      * Check if product is low on stock.
      */
-    public function isLowStock(): bool
+    public function isLowStock(int $threshold = 10): bool
     {
-        return $this->stock_quantity <= $this->low_stock_threshold;
+        return $this->stock <= $threshold;
     }
 }
