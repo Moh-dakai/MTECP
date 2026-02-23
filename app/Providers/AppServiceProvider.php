@@ -11,7 +11,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-    //
+        //
     }
 
     /**
@@ -19,10 +19,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        \Illuminate\Support\Facades\Route::middleware([
-            'web',
-            \Stancl\Tenancy\Middleware\InitializeTenancyByDomain::class ,
-            \Stancl\Tenancy\Middleware\PreventAccessFromCentralDomains::class ,
-        ])->group(base_path('routes/tenant.php'));
+        //
     }
 }
