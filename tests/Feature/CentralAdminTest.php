@@ -45,8 +45,7 @@ class CentralAdminTest extends TestCase
 
         // Refresh and explicitly retrieve the data attribute
         $tenant->refresh();
-        $storedData = is_string($tenant->getRawOriginal('data')) ? json_decode($tenant->getRawOriginal('data'), true) : $tenant->data;
-        $this->assertTrue(isset($storedData['is_suspended']) && $storedData['is_suspended']);
+        $this->assertTrue($tenant->data['is_suspended'] ?? false);
 
         // 5. Test Deletion
         Livewire::actingAs($admin)
