@@ -48,7 +48,7 @@ class TenantManager extends Component
 
         if ($this->search) {
             $query->where('id', 'like', '%' . $this->search . '%')
-                ->orWhere('name', 'like', '%' . $this->search . '%');
+                ->orWhere('data->name', 'like', '%' . $this->search . '%');
         }
 
         return view('livewire.central.tenant-manager', [

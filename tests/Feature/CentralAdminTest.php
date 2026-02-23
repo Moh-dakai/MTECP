@@ -22,8 +22,7 @@ class CentralAdminTest extends TestCase
         $tenantId = 'test-store-1';
         $tenant = Tenant::create([
             'id' => $tenantId,
-            'name' => 'My Test Store',
-            'data' => []
+            'data' => ['name' => 'My Test Store']
         ]);
         $tenant->domains()->create(['domain' => 'test1.localhost']);
 

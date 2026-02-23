@@ -9,7 +9,8 @@ Route::view('/', 'welcome')->name('home');
 require __DIR__ . '/auth.php';
 
 // Routes for central domains (admin, dashboard, etc.)
-foreach (config('tenancy.central_domains') as $domain) {
+// Include localhost and 127.0.0.1 as central domains for testing
+foreach (['localhost', '127.0.0.1', 'mtecp.test'] as $domain) {
     Route::domain($domain)->group(function () {
         Route::view('dashboard', 'dashboard')
             ->middleware(['auth', 'verified'])
