@@ -21,6 +21,6 @@ class TenantRoutingTest extends TestCase
         $response = $this->get('http://storetest1.mtecp.test/');
 
         $response->assertStatus(200);
-        $response->assertSee('This is your multi-tenant application. The id of the current tenant is storetest1');
+        $response->assertViewIs('storefront.home');
     }
 }
