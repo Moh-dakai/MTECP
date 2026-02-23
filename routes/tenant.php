@@ -15,8 +15,14 @@ Route::get('/', function () {
     return view('storefront.home');
 });
 
+// Storefront routes
+Route::get('/cart', \App\Livewire\Storefront\Cart::class)->name('cart');
+Route::get('/checkout', \App\Livewire\Storefront\Checkout::class)->name('checkout');
+Route::get('/payment/callback/{provider}', [\App\Http\Controllers\PaymentController::class , 'callback'])->name('payment.callback');
+
 // Admin Dashboard Routes for Tenant
 Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/categories', \App\Livewire\Admin\CategoryManager::class)->name('categories');
     Route::get('/products', \App\Livewire\Admin\ProductManager::class)->name('products');
+    Route::get('/orders', \App\Livewire\Admin\OrderManager::class)->name('orders');
 });
