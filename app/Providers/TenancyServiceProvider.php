@@ -95,7 +95,7 @@ class TenancyServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->bootEvents();
-        
+
         $this->mapRoutes();
 
         $this->makeTenancyMiddlewareHighestPriority();
@@ -127,6 +127,10 @@ class TenancyServiceProvider extends ServiceProvider
         $this->app->booted(function () {
             if (file_exists(base_path('routes/tenant.php'))) {
                 Route::namespace (static::$controllerNamespace)
+                    ->middleware([
+                    \Stancl\Tenancy\Middleware\InitializeTenancyByDomain::class ,
+                    \Stancl\Tenancy\Middleware\PreventAccessFromCentralDomains::class ,
+                ])
                     ->group(base_path('routes/tenant.php'));
             }
         });

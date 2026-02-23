@@ -822,3 +822,102 @@
 [2026-02-23 20:46:54] local.INFO: Evaluating routes/tenant.php  
 [2026-02-23 20:47:03] local.INFO: Evaluating routes/tenant.php  
 [2026-02-23 20:47:24] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:49:07] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:49:58] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:52:03] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:53:56] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:54:20] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:54:45] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:55:39] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:55:56] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:56:15] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:56:52] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:56:54] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:57:51] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:57:54] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:58:44] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:59:14] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:59:39] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 20:59:41] local.ERROR: The "-e" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-e\" option does not exist. at C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Input/ArgvInput.php:211)
+[stacktrace]
+#0 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Input/ArgvInput.php(113): Symfony/Component/Console/Input/ArgvInput->addShortOption('e', NULL)
+#1 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Input/ArgvInput.php(90): Symfony/Component/Console/Input/ArgvInput->parseShortOption('-e')
+#2 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Input/ArgvInput.php(77): Symfony/Component/Console/Input/ArgvInput->parseToken('-e', true)
+#3 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Input/Input.php(53): Symfony/Component/Console/Input/ArgvInput->parse()
+#4 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Command/Command.php(295): Symfony/Component/Console/Input/Input->bind(Object(Symfony/Component/Console/Input/InputDefinition))
+#5 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#6 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Application.php(1102): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#7 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Laravel/Tinker/Console/TinkerCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#8 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#9 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#10 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 C:/Users/MUHAMMAD/Desktop/Project/MTECP/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#12 {main}
+"} 
+[2026-02-23 21:00:17] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:00:17] local.ERROR: Tenant could not be identified on domain  {"exception":"[object] (Stancl\\Tenancy\\Exceptions\\TenantCouldNotBeIdentifiedOnDomainException(code: 0): Tenant could not be identified on domain  at C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/stancl/tenancy/src/Resolvers/DomainTenantResolver.php:48)
+[stacktrace]
+#0 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/stancl/tenancy/src/Resolvers/Contracts/CachedTenantResolver.php(34): Stancl/Tenancy/Resolvers/DomainTenantResolver->resolveWithoutCache('')
+#1 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/stancl/tenancy/src/Middleware/IdentificationMiddleware.php(26): Stancl/Tenancy/Resolvers/Contracts/CachedTenantResolver->resolve('')
+#2 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/stancl/tenancy/src/Middleware/InitializeTenancyByDomain.php(37): Stancl/Tenancy/Middleware/IdentificationMiddleware->initializeTenancy(Object(Illuminate/Http/Request), Object(Closure), '')
+#3 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Stancl/Tenancy/Middleware/InitializeTenancyByDomain->handle(Object(Illuminate/Http/Request), Object(Closure))
+#4 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/stancl/tenancy/src/Middleware/PreventAccessFromCentralDomains.php(29): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#5 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Stancl/Tenancy/Middleware/PreventAccessFromCentralDomains->handle(Object(Illuminate/Http/Request), Object(Closure))
+#6 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#7 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#8 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#9 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#10 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#11 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#12 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#13 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Features/SupportDisablingBackButtonCache/DisableBackButtonCacheMiddleware.php(19): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#14 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Livewire/Features/SupportDisablingBackButtonCache/DisableBackButtonCacheMiddleware->handle(Object(Illuminate/Http/Request), Object(Closure))
+#15 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#16 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#18 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#19 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#22 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#23 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#24 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#25 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#26 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#27 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#28 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#29 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#30 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#31 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#32 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#33 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#34 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#35 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#36 C:/Users/MUHAMMAD/Desktop/Project/MTECP/test-route.php(7): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#37 {main}
+"} 
+[2026-02-23 21:01:19] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:02:01] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:02:04] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:02:31] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:04:48] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:04:51] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:05:54] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:05:57] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:06:23] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:06:54] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:06:57] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:07:14] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:08:23] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:09:13] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:09:16] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:10:04] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:10:18] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:13:28] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:13:31] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:13:35] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:13:37] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:13:39] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:13:43] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:13:50] local.INFO: Evaluating routes/tenant.php  
+[2026-02-23 21:13:56] local.INFO: Evaluating routes/tenant.php  
