@@ -42,6 +42,11 @@ new class extends Component
                     <x-nav-link :href="route('admin.orders')" :active="request()->routeIs('admin.orders')" wire:navigate>
                         {{ __('Orders') }}
                     </x-nav-link>
+                    @if(!tenant())
+                        <x-nav-link :href="route('admin.tenants')" :active="request()->routeIs('admin.tenants')" wire:navigate>
+                            {{ __('Platform Tenants') }}
+                        </x-nav-link>
+                    @endif
                 </div>
             </div>
 
@@ -102,6 +107,11 @@ new class extends Component
             <x-responsive-nav-link :href="route('admin.orders')" :active="request()->routeIs('admin.orders')" wire:navigate>
                 {{ __('Orders') }}
             </x-responsive-nav-link>
+            @if(!tenant())
+                <x-responsive-nav-link :href="route('admin.tenants')" :active="request()->routeIs('admin.tenants')" wire:navigate>
+                    {{ __('Platform Tenants') }}
+                </x-responsive-nav-link>
+            @endif
         </div>
 
         <!-- Responsive Settings Options -->

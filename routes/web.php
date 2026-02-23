@@ -14,6 +14,11 @@ foreach (config('tenancy.central_domains') as $domain) {
             ->middleware(['auth'])
             ->name('profile');
 
+        // Central Admin Route
+        Route::get('admin/tenants', \App\Livewire\Central\TenantManager::class)
+            ->middleware(['auth'])
+            ->name('admin.tenants');
+
         require __DIR__ . '/auth.php';
     });
 }
