@@ -23,49 +23,63 @@ class Tenant extends BaseTenant
      */
     protected $fillable = [
         'id',
-        'name',
-        'color_primary',
-        'color_secondary',
+        'data',
     ];
 
     /**
-     * Get a tenant attribute from the data JSON column.
+     * Get the tenant name from data JSON.
      */
-    public function __get($key)
+    public function getNameAttribute(): ?string
     {
-        // Check if it's a known attribute that should come from data
-        if (in_array($key, ['name', 'color_primary', 'color_secondary'])) {
-            return $this->data[$key] ?? null;
-        }
-        
-        return parent::__get($key);
+        $data = $this->getAttribute('data');
+        return is_array($data) ? ($data['name'] ?? null) : null;
     }
 
     /**
-     * Set a tenant attribute, storing it in the data JSON column.
+     * Get the primary color from data JSON.
      */
-    public function __set($key, $value)
+    public function getColorPrimaryAttribute(): ?string
     {
-        // Check if it's a known attribute that should be stored in data
-        if (in_array($key, ['name', 'color_primary', 'color_secondary'])) {
-            $data = $this->data ?? [];
-            $data[$key] = $value;
-            $this->data = $data;
-            return;
-        }
-        
-        parent::__set($key, $value);
+        $data = $this->getAttribute('data');
+        return is_array($data) ? ($data['color_primary'] ?? null) : null;
     }
 
     /**
-     * Check if a tenant attribute exists in the data JSON column.
+     * Get the secondary color from data JSON.
      */
-    public function __isset($key)
+    public function getColorSecondaryAttribute(): ?string
     {
-        if (in_array($key, ['name', 'color_primary', 'color_secondary'])) {
-            return isset($this->data[$key]);
-        }
-        
-        return parent::__isset($key);
+        $data = $this->getAttribute('data');
+        return is_array($data) ? ($data['color_secondary'] ?? null) : null;
+    }
+
+    /**
+     * Set the tenant name in data JSON.
+     */
+    public function setNameAttribute(?string $value): void
+    {
+        $data = $this->getAttribute('data') ?? [];
+        $data['name'] = $value;
+        $this->setAttribute('data', $data);
+    }
+
+    /**
+     * Set the primary color in data JSON.
+     */
+    public function setColorPrimaryAttribute(?string $value): void
+    {
+        $data = $this->getAttribute('data') ?? [];
+        $data['color_primary'] = $value;
+        $this->setAttribute('data', $data);
+    }
+
+    /**
+     * Set the secondary color in data JSON.
+     */
+    public function setColorSecondaryAttribute(?string $value): void
+    {
+        $data = $this->getAttribute('data') ?? [];
+        $data['color_secondary'] = $value;
+        $this->setAttribute('data', $data);
     }
 }

@@ -1150,3 +1150,533 @@
 [2026-02-24 07:50:48] local.INFO: Evaluating routes/tenant.php  
 [2026-02-24 07:50:52] local.INFO: Evaluating routes/tenant.php  
 [2026-02-24 07:50:58] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:57:31] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:57:33] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:57:39] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:57:43] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:57:48] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:57:57] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:04] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:06] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:10] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:15] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:21] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:23] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:26] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:26] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:32] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:38] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:43] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:47] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:52] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:52] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:58:57] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:59:02] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:59:08] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:59:19] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:59:32] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:59:39] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:59:50] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 07:59:58] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:00:06] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:00:13] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:00:20] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:00:27] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:00:34] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:00:43] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:00:51] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:02] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:11] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:17] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:24] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:29] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:34] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:39] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:44] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:48] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:53] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:01:58] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:02:03] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:02:08] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:02:15] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:02:22] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:02:27] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:02:33] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:02:39] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:02:44] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:05:25] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:10] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:18] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:19] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:22] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:30] testing.ERROR: rename(C:\Users\MUHAMMAD\Desktop\Project\MTECP\storage\framework\views\a862B3A.tmp,C:\Users\MUHAMMAD\Desktop\Project\MTECP\storage\framework\views/a86f55630ee2a44590c6ef3a00ba72e5.php): Access is denied (code: 5) (View: C:\Users\MUHAMMAD\Desktop\Project\MTECP\resources\views\components\application-logo.blade.php) (View: C:\Users\MUHAMMAD\Desktop\Project\MTECP\resources\views\components\application-logo.blade.php) {"exception":"[object] (Illuminate\\View\\ViewException(code: 0): rename(C:\\Users\\MUHAMMAD\\Desktop\\Project\\MTECP\\storage\\framework\\views\\a862B3A.tmp,C:\\Users\\MUHAMMAD\\Desktop\\Project\\MTECP\\storage\\framework\\views/a86f55630ee2a44590c6ef3a00ba72e5.php): Access is denied (code: 5) (View: C:\\Users\\MUHAMMAD\\Desktop\\Project\\MTECP\\resources\\views\\components\\application-logo.blade.php) (View: C:\\Users\\MUHAMMAD\\Desktop\\Project\\MTECP\\resources\\views\\components\\application-logo.blade.php) at C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:233)
+[stacktrace]
+#0 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(58): Illuminate/View/Engines/CompilerEngine->handleViewException(Object(Illuminate/View/ViewException), 1)
+#1 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->handleViewException(Object(Illuminate/View/ViewException), 1)
+#2 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(22): Illuminate/View/Engines/PhpEngine->evaluatePath('C://Users//MUHAMM...', Array)
+#3 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->evaluatePath('C://Users//MUHAMM...', Array)
+#4 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(10): Illuminate/View/Engines/CompilerEngine->get('C://Users//MUHAMM...', Array)
+#5 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(208): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->get('C://Users//MUHAMM...', Array)
+#6 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#7 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#8 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(353): Illuminate/View/View->render()
+#9 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Illuminate/View/Compilers/BladeCompiler::render('    <?php $layo...', Array)
+#10 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Features/SupportPageComponents/SupportPageComponents.php(153): Illuminate/Support/Facades/Facade::__callStatic('render', Array)
+#11 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Features/SupportPageComponents/HandlesPageComponents.php(24): Livewire/Features/SupportPageComponents/SupportPageComponents::renderContentsIntoLayout('<div wire:snaps...', Object(Livewire/Features/SupportPageComponents/PageComponentConfig))
+#12 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Livewire/Component->__invoke()
+#13 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate/Container/BoundMethod::{closure:Illuminate/Container/BoundMethod::call():35}()
+#14 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#15 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#16 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#17 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/volt/src/VoltManager.php(37): Illuminate/Container/Container->call(Array)
+#18 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/CallableDispatcher.php(39): Livewire/Volt/VoltManager->{closure:Livewire/Volt/VoltManager::route():34}()
+#19 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Route.php(243): Illuminate/Routing/CallableDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(Closure))
+#20 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Route.php(214): Illuminate/Routing/Route->runCallable()
+#21 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#22 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#23 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RedirectIfAuthenticated.php(47): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#24 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/RedirectIfAuthenticated->handle(Object(Illuminate/Http/Request), Object(Closure))
+#25 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#26 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#27 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#28 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#29 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#30 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#31 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#32 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#33 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#34 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#35 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#37 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#39 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#40 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#41 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#42 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#43 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#44 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#45 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Features/SupportDisablingBackButtonCache/DisableBackButtonCacheMiddleware.php(19): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#46 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Livewire/Features/SupportDisablingBackButtonCache/DisableBackButtonCacheMiddleware->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#48 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#50 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#51 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#52 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#53 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#54 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#55 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#56 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#57 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#58 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#59 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#60 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#61 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#62 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#63 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#64 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#65 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#66 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#67 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#68 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php(607): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#69 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php(368): Illuminate/Foundation/Testing/TestCase->call('GET', '/login', Array, Array, Array, Array)
+#70 C:/Users/MUHAMMAD/Desktop/Project/MTECP/tests/Feature/Auth/AuthenticationTest.php(16): Illuminate/Foundation/Testing/TestCase->get('/login')
+#71 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestCase.php(1667): Tests/Feature/Auth/AuthenticationTest->test_login_screen_can_be_rendered()
+#72 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestCase.php(519): PHPUnit/Framework/TestCase->runTest()
+#73 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestRunner/TestRunner.php(87): PHPUnit/Framework/TestCase->runBare()
+#74 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestCase.php(365): PHPUnit/Framework/TestRunner->run(Object(Tests/Feature/Auth/AuthenticationTest))
+#75 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit/Framework/TestCase->run()
+#76 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit/Framework/TestSuite->run()
+#77 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit/Framework/TestSuite->run()
+#78 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(64): PHPUnit/Framework/TestSuite->run()
+#79 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/TextUI/Application.php(211): PHPUnit/TextUI/TestRunner->run(Object(PHPUnit/TextUI/Configuration/Configuration), Object(PHPUnit/Runner/ResultCache/DefaultResultCache), Object(PHPUnit/Framework/TestSuite))
+#80 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/phpunit(104): PHPUnit/TextUI/Application->run(Array)
+#81 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/bin/phpunit(122): include('C://Users//MUHAMM...')
+#82 {main}
+
+[previous exception] [object] (Illuminate\\View\\ViewException(code: 0): rename(C:\\Users\\MUHAMMAD\\Desktop\\Project\\MTECP\\storage\\framework\\views\\a862B3A.tmp,C:\\Users\\MUHAMMAD\\Desktop\\Project\\MTECP\\storage\\framework\\views/a86f55630ee2a44590c6ef3a00ba72e5.php): Access is denied (code: 5) (View: C:\\Users\\MUHAMMAD\\Desktop\\Project\\MTECP\\resources\\views\\components\\application-logo.blade.php) at C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:233)
+[stacktrace]
+#0 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(58): Illuminate/View/Engines/CompilerEngine->handleViewException(Object(ErrorException), 2)
+#1 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->handleViewException(Object(ErrorException), 2)
+#2 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(22): Illuminate/View/Engines/PhpEngine->evaluatePath('C://Users//MUHAMM...', Array)
+#3 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->evaluatePath('C://Users//MUHAMM...', Array)
+#4 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(10): Illuminate/View/Engines/CompilerEngine->get('C://Users//MUHAMM...', Array)
+#5 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(208): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->get('C://Users//MUHAMM...', Array)
+#6 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#7 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#8 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesComponents.php(103): Illuminate/View/View->render()
+#9 C:/Users/MUHAMMAD/Desktop/Project/MTECP/storage/framework/views/bcf2acd1bfe325311277754bb142ae76.php(17): Illuminate/View/Factory->renderComponent()
+#10 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('C://Users//MUHAMM...')
+#11 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::{closure:Illuminate/Filesystem/Filesystem::getRequire():120}()
+#12 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate/Filesystem/Filesystem->getRequire('C://Users//MUHAMM...', Array)
+#13 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(22): Illuminate/View/Engines/PhpEngine->evaluatePath('C://Users//MUHAMM...', Array)
+#14 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->evaluatePath('C://Users//MUHAMM...', Array)
+#15 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(10): Illuminate/View/Engines/CompilerEngine->get('C://Users//MUHAMM...', Array)
+#16 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(208): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->get('C://Users//MUHAMM...', Array)
+#17 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#18 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#19 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(353): Illuminate/View/View->render()
+#20 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Illuminate/View/Compilers/BladeCompiler::render('    <?php $layo...', Array)
+#21 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Features/SupportPageComponents/SupportPageComponents.php(153): Illuminate/Support/Facades/Facade::__callStatic('render', Array)
+#22 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Features/SupportPageComponents/HandlesPageComponents.php(24): Livewire/Features/SupportPageComponents/SupportPageComponents::renderContentsIntoLayout('<div wire:snaps...', Object(Livewire/Features/SupportPageComponents/PageComponentConfig))
+#23 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Livewire/Component->__invoke()
+#24 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate/Container/BoundMethod::{closure:Illuminate/Container/BoundMethod::call():35}()
+#25 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#26 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#27 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#28 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/volt/src/VoltManager.php(37): Illuminate/Container/Container->call(Array)
+#29 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/CallableDispatcher.php(39): Livewire/Volt/VoltManager->{closure:Livewire/Volt/VoltManager::route():34}()
+#30 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Route.php(243): Illuminate/Routing/CallableDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(Closure))
+#31 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Route.php(214): Illuminate/Routing/Route->runCallable()
+#32 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#33 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#34 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RedirectIfAuthenticated.php(47): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#35 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/RedirectIfAuthenticated->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#37 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#39 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#40 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#41 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#42 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#43 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#44 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#46 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#48 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#50 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#51 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#52 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#53 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#54 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#55 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#56 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Features/SupportDisablingBackButtonCache/DisableBackButtonCacheMiddleware.php(19): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#57 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Livewire/Features/SupportDisablingBackButtonCache/DisableBackButtonCacheMiddleware->handle(Object(Illuminate/Http/Request), Object(Closure))
+#58 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#59 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#60 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#61 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#62 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#63 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#64 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#65 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#66 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#67 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#68 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#69 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#70 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#71 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#72 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#73 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#74 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#75 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#76 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#77 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#78 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#79 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php(607): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#80 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php(368): Illuminate/Foundation/Testing/TestCase->call('GET', '/login', Array, Array, Array, Array)
+#81 C:/Users/MUHAMMAD/Desktop/Project/MTECP/tests/Feature/Auth/AuthenticationTest.php(16): Illuminate/Foundation/Testing/TestCase->get('/login')
+#82 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestCase.php(1667): Tests/Feature/Auth/AuthenticationTest->test_login_screen_can_be_rendered()
+#83 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestCase.php(519): PHPUnit/Framework/TestCase->runTest()
+#84 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestRunner/TestRunner.php(87): PHPUnit/Framework/TestCase->runBare()
+#85 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestCase.php(365): PHPUnit/Framework/TestRunner->run(Object(Tests/Feature/Auth/AuthenticationTest))
+#86 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit/Framework/TestCase->run()
+#87 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit/Framework/TestSuite->run()
+#88 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit/Framework/TestSuite->run()
+#89 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(64): PHPUnit/Framework/TestSuite->run()
+#90 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/TextUI/Application.php(211): PHPUnit/TextUI/TestRunner->run(Object(PHPUnit/TextUI/Configuration/Configuration), Object(PHPUnit/Runner/ResultCache/DefaultResultCache), Object(PHPUnit/Framework/TestSuite))
+#91 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/phpunit(104): PHPUnit/TextUI/Application->run(Array)
+#92 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/bin/phpunit(122): include('C://Users//MUHAMM...')
+#93 {main}
+
+[previous exception] [object] (ErrorException(code: 0): rename(C:\\Users\\MUHAMMAD\\Desktop\\Project\\MTECP\\storage\\framework\\views\\a862B3A.tmp,C:\\Users\\MUHAMMAD\\Desktop\\Project\\MTECP\\storage\\framework\\views/a86f55630ee2a44590c6ef3a00ba72e5.php): Access is denied (code: 5) at C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:233)
+[stacktrace]
+#0 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate/Foundation/Bootstrap/HandleExceptions->handleError(2, 'rename(C://Users...', 'C://Users//MUHAMM...', 233)
+#1 [internal function]: Illuminate/Foundation/Bootstrap/HandleExceptions->{closure:Illuminate/Foundation/Bootstrap/HandleExceptions::forwardsTo():257}(2, 'rename(C://Users...', 'C://Users//MUHAMM...', 233)
+#2 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(233): rename('C://Users//MUHAMM...', 'C://Users//MUHAMM...')
+#3 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(199): Illuminate/Filesystem/Filesystem->replace('C://Users//MUHAMM...', '<svg viewBox=\"0...')
+#4 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(68): Illuminate/View/Compilers/BladeCompiler->compile('C://Users//MUHAMM...')
+#5 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(10): Illuminate/View/Engines/CompilerEngine->get('C://Users//MUHAMM...', Array)
+#6 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(208): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->get('C://Users//MUHAMM...', Array)
+#7 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#8 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#9 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesComponents.php(103): Illuminate/View/View->render()
+#10 C:/Users/MUHAMMAD/Desktop/Project/MTECP/storage/framework/views/2d4fb80d7493c94f25c63844aa34c464.php(31): Illuminate/View/Factory->renderComponent()
+#11 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('C://Users//MUHAMM...')
+#12 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::{closure:Illuminate/Filesystem/Filesystem::getRequire():120}()
+#13 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate/Filesystem/Filesystem->getRequire('C://Users//MUHAMM...', Array)
+#14 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(22): Illuminate/View/Engines/PhpEngine->evaluatePath('C://Users//MUHAMM...', Array)
+#15 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->evaluatePath('C://Users//MUHAMM...', Array)
+#16 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(10): Illuminate/View/Engines/CompilerEngine->get('C://Users//MUHAMM...', Array)
+#17 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(208): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->get('C://Users//MUHAMM...', Array)
+#18 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#19 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#20 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesComponents.php(103): Illuminate/View/View->render()
+#21 C:/Users/MUHAMMAD/Desktop/Project/MTECP/storage/framework/views/bcf2acd1bfe325311277754bb142ae76.php(17): Illuminate/View/Factory->renderComponent()
+#22 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('C://Users//MUHAMM...')
+#23 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::{closure:Illuminate/Filesystem/Filesystem::getRequire():120}()
+#24 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate/Filesystem/Filesystem->getRequire('C://Users//MUHAMM...', Array)
+#25 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(22): Illuminate/View/Engines/PhpEngine->evaluatePath('C://Users//MUHAMM...', Array)
+#26 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->evaluatePath('C://Users//MUHAMM...', Array)
+#27 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Mechanisms/ExtendBlade/ExtendedCompilerEngine.php(10): Illuminate/View/Engines/CompilerEngine->get('C://Users//MUHAMM...', Array)
+#28 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(208): Livewire/Mechanisms/ExtendBlade/ExtendedCompilerEngine->get('C://Users//MUHAMM...', Array)
+#29 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#30 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#31 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(353): Illuminate/View/View->render()
+#32 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Illuminate/View/Compilers/BladeCompiler::render('    <?php $layo...', Array)
+#33 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Features/SupportPageComponents/SupportPageComponents.php(153): Illuminate/Support/Facades/Facade::__callStatic('render', Array)
+#34 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Features/SupportPageComponents/HandlesPageComponents.php(24): Livewire/Features/SupportPageComponents/SupportPageComponents::renderContentsIntoLayout('<div wire:snaps...', Object(Livewire/Features/SupportPageComponents/PageComponentConfig))
+#35 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Livewire/Component->__invoke()
+#36 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate/Container/BoundMethod::{closure:Illuminate/Container/BoundMethod::call():35}()
+#37 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#38 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#39 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#40 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/volt/src/VoltManager.php(37): Illuminate/Container/Container->call(Array)
+#41 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/CallableDispatcher.php(39): Livewire/Volt/VoltManager->{closure:Livewire/Volt/VoltManager::route():34}()
+#42 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Route.php(243): Illuminate/Routing/CallableDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(Closure))
+#43 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Route.php(214): Illuminate/Routing/Route->runCallable()
+#44 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#45 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#46 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Auth/Middleware/RedirectIfAuthenticated.php(47): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#47 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/RedirectIfAuthenticated->handle(Object(Illuminate/Http/Request), Object(Closure))
+#48 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#49 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#50 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#51 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#52 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#53 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#54 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#55 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#56 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#57 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#58 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#59 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#60 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#61 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#62 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#63 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#64 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#65 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#66 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#67 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#68 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/livewire/livewire/src/Features/SupportDisablingBackButtonCache/DisableBackButtonCacheMiddleware.php(19): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#69 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Livewire/Features/SupportDisablingBackButtonCache/DisableBackButtonCacheMiddleware->handle(Object(Illuminate/Http/Request), Object(Closure))
+#70 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#71 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#72 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#73 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#74 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#75 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#76 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#77 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#78 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#79 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#80 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#81 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#82 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#83 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#84 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#85 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#86 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#87 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#88 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#89 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#90 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#91 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php(607): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#92 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php(368): Illuminate/Foundation/Testing/TestCase->call('GET', '/login', Array, Array, Array, Array)
+#93 C:/Users/MUHAMMAD/Desktop/Project/MTECP/tests/Feature/Auth/AuthenticationTest.php(16): Illuminate/Foundation/Testing/TestCase->get('/login')
+#94 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestCase.php(1667): Tests/Feature/Auth/AuthenticationTest->test_login_screen_can_be_rendered()
+#95 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestCase.php(519): PHPUnit/Framework/TestCase->runTest()
+#96 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestRunner/TestRunner.php(87): PHPUnit/Framework/TestCase->runBare()
+#97 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestCase.php(365): PHPUnit/Framework/TestRunner->run(Object(Tests/Feature/Auth/AuthenticationTest))
+#98 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit/Framework/TestCase->run()
+#99 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit/Framework/TestSuite->run()
+#100 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit/Framework/TestSuite->run()
+#101 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(64): PHPUnit/Framework/TestSuite->run()
+#102 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/src/TextUI/Application.php(211): PHPUnit/TextUI/TestRunner->run(Object(PHPUnit/TextUI/Configuration/Configuration), Object(PHPUnit/Runner/ResultCache/DefaultResultCache), Object(PHPUnit/Framework/TestSuite))
+#103 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/phpunit/phpunit/phpunit(104): PHPUnit/TextUI/Application->run(Array)
+#104 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/bin/phpunit(122): include('C://Users//MUHAMM...')
+#105 {main}
+"} 
+[2026-02-24 08:06:32] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:32] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:33] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:33] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:34] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:37] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:37] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:37] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:40] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:41] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:47] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:48] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:54] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:06:54] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:01] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:02] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:03] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:04] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:15] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:16] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:16] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:17] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:17] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:18] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:20] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:20] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:20] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:07:27] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:10] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:10] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:10] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:46] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:57] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:57] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:58] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:58] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:59] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:59] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:59] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:08:59] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:01] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:01] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:01] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:04] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:04] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:05] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:05] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:10] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:10] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:10] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:10] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:15] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:15] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:15] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:16] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:23] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:23] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:23] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:23] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:24] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:25] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:34] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:34] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:34] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:35] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:35] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:35] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:36] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:36] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:09:36] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:16:05] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:16:08] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:16:26] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:16:31] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:19] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:20] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:33] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:33] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:36] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:36] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:36] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:36] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:37] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:37] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:40] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:41] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:46] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:47] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:53] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:53] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:17:59] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:08] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:09] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:09] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:09] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:09] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:10] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:11] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:11] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:11] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:38] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:18:42] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:23] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:29] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:30] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:43] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:43] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:43] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:43] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:47] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:48] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:54] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:19:54] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:00] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:01] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:07] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:07] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:08] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:09] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:19] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:19] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:19] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:19] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:20] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:20] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:21] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:22] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:20:22] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:23:10] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:23:14] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:23:50] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:23:58] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:23:59] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:14] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:17] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:17] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:23] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:23] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:29] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:29] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:36] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:36] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:37] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:37] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:43] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:43] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:45] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:45] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:45] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:24:46] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:33:11] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:33:13] testing.INFO: Evaluating routes/tenant.php  
