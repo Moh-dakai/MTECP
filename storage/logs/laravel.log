@@ -1680,3 +1680,132 @@
 [2026-02-24 08:24:46] testing.INFO: Evaluating routes/tenant.php  
 [2026-02-24 08:33:11] local.INFO: Evaluating routes/tenant.php  
 [2026-02-24 08:33:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:39:40] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:39:42] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:39:43] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:39:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:39:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:39:44] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:18] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:19] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:36] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:42] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:43] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:49] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:49] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:49] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:49] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:49] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:51] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:51] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:51] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:53] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:54] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:57] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:41:58] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:01] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:02] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:06] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:06] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:06] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:06] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:12] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:42:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:50:34] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:50:37] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:51:30] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:51:30] local.ERROR: PHP Parse error: Syntax error, unexpected T_NS_SEPARATOR on line 1 {"exception":"[object] (Psy\\Exception\\ParseErrorException(code: 0): PHP Parse error: Syntax error, unexpected T_NS_SEPARATOR on line 1 at C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/Exception/ParseErrorException.php:44)
+[stacktrace]
+#0 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/CodeCleaner.php(488): Psy/Exception/ParseErrorException::fromParseError(Object(PhpParser/Error))
+#1 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/CodeCleaner.php(269): Psy/CodeCleaner->parse('<?php use App//M...', false)
+#2 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/Shell.php(1059): Psy/CodeCleaner->clean(Array, false)
+#3 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/Shell.php(1092): Psy/Shell->addCode('use App//Models//...', true)
+#4 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/Shell.php(1640): Psy/Shell->setCode('use App//Models//...', true)
+#5 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/tinker/src/Console/TinkerCommand.php(77): Psy/Shell->execute('use App//Models//...')
+#6 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel/Tinker/Console/TinkerCommand->handle()
+#7 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate/Container/BoundMethod::{closure:Illuminate/Container/BoundMethod::call():35}()
+#8 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#9 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#10 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#11 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate/Container/Container->call(Array)
+#12 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Command/Command.php(341): Illuminate/Console/Command->execute(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#13 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#14 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Application.php(1102): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#15 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Laravel/Tinker/Console/TinkerCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#16 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#17 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#18 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#19 C:/Users/MUHAMMAD/Desktop/Project/MTECP/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#20 {main}
+"} 
+[2026-02-24 08:52:54] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:52:54] local.ERROR: PHP Parse error: Syntax error, unexpected T_NAME_FULLY_QUALIFIED, expecting '{' on line 1 {"exception":"[object] (Psy\\Exception\\ParseErrorException(code: 0): PHP Parse error: Syntax error, unexpected T_NAME_FULLY_QUALIFIED, expecting '{' on line 1 at C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/Exception/ParseErrorException.php:44)
+[stacktrace]
+#0 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/CodeCleaner.php(488): Psy/Exception/ParseErrorException::fromParseError(Object(PhpParser/Error))
+#1 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/CodeCleaner.php(269): Psy/CodeCleaner->parse('<?php use App////...', false)
+#2 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/Shell.php(1059): Psy/CodeCleaner->clean(Array, false)
+#3 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/Shell.php(1092): Psy/Shell->addCode('use App////Models...', true)
+#4 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/psy/psysh/src/Shell.php(1640): Psy/Shell->setCode('use App////Models...', true)
+#5 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/tinker/src/Console/TinkerCommand.php(77): Psy/Shell->execute('use App////Models...')
+#6 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel/Tinker/Console/TinkerCommand->handle()
+#7 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate/Container/BoundMethod::{closure:Illuminate/Container/BoundMethod::call():35}()
+#8 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#9 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#10 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#11 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate/Container/Container->call(Array)
+#12 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Command/Command.php(341): Illuminate/Console/Command->execute(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#13 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#14 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Application.php(1102): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#15 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Laravel/Tinker/Console/TinkerCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#16 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#17 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#18 C:/Users/MUHAMMAD/Desktop/Project/MTECP/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#19 C:/Users/MUHAMMAD/Desktop/Project/MTECP/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#20 {main}
+"} 
+[2026-02-24 08:54:11] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:59:11] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:59:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:59:46] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 08:59:48] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:00:16] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:00:18] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:00:31] local.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:00:34] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:00:56] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:04] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:04] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:13] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:14] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:16] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:17] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:21] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:22] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:26] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:26] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:32] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:32] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:32] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:32] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:39] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:39] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:39] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:39] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:39] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:40] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:40] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:41] testing.INFO: Evaluating routes/tenant.php  
+[2026-02-24 09:01:41] testing.INFO: Evaluating routes/tenant.php  

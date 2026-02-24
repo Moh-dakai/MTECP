@@ -19,67 +19,22 @@ class Tenant extends BaseTenant
     ];
 
     /**
-     * The attributes that are mass assignable.
+     * The attributes that are mass assignable. We allow `name`,
+     * `color_primary` and `color_secondary` here so callers can simply
+     * pass them like normal attributes when creating or updating a tenant.
+     * The VirtualColumn trait will automatically move them into the JSON
+     * `data` column when the model is saved.
      */
     protected $fillable = [
         'id',
-        'data',
+        'data', // still allowed for backwards compatibility with existing code/tests
+        'name',
+        'color_primary',
+        'color_secondary',
     ];
 
-    /**
-     * Get the tenant name from data JSON.
-     */
-    public function getNameAttribute(): ?string
-    {
-        $data = $this->getAttribute('data');
-        return is_array($data) ? ($data['name'] ?? null) : null;
-    }
-
-    /**
-     * Get the primary color from data JSON.
-     */
-    public function getColorPrimaryAttribute(): ?string
-    {
-        $data = $this->getAttribute('data');
-        return is_array($data) ? ($data['color_primary'] ?? null) : null;
-    }
-
-    /**
-     * Get the secondary color from data JSON.
-     */
-    public function getColorSecondaryAttribute(): ?string
-    {
-        $data = $this->getAttribute('data');
-        return is_array($data) ? ($data['color_secondary'] ?? null) : null;
-    }
-
-    /**
-     * Set the tenant name in data JSON.
-     */
-    public function setNameAttribute(?string $value): void
-    {
-        $data = $this->getAttribute('data') ?? [];
-        $data['name'] = $value;
-        $this->setAttribute('data', $data);
-    }
-
-    /**
-     * Set the primary color in data JSON.
-     */
-    public function setColorPrimaryAttribute(?string $value): void
-    {
-        $data = $this->getAttribute('data') ?? [];
-        $data['color_primary'] = $value;
-        $this->setAttribute('data', $data);
-    }
-
-    /**
-     * Set the secondary color in data JSON.
-     */
-    public function setColorSecondaryAttribute(?string $value): void
-    {
-        $data = $this->getAttribute('data') ?? [];
-        $data['color_secondary'] = $value;
-        $this->setAttribute('data', $data);
-    }
+    // We no longer need custom accessors/mutators or appended properties
+    // because VirtualColumn already makes `name`, `color_primary`, etc. act
+    // like real model attributes. Removing the old methods avoids the
+    // encoding conflict that caused test failures.
 }

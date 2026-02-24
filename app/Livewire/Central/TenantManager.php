@@ -19,15 +19,15 @@ class TenantManager extends Component
 
     public function toggleSuspension($tenantId)
     {
-        // For a full implementation, you'd add a 'suspended' boolean to the tenants table.
-        // For the scope of this MVP, we will simulate it via the JSON payload.
+        // Instead of manually editing the JSON payload, treat `is_suspended`
+        // as a virtual attribute. The tenant model will persist unknown
+        // attributes into the `data` column automatically, so we can simply
+        // toggle the property and save the model normally.
         $tenant = Tenant::findOrFail($tenantId);
-        $currentData = is_array($tenant->data) ? $tenant->data : [];
-        $isSuspended = $currentData['is_suspended'] ?? false;
+        $isSuspended = $tenant->is_suspended ?? false;
 
-        $currentData['is_suspended'] = !$isSuspended;
-
-        $tenant->update(['data' => $currentData]);
+        $tenant->is_suspended = ! $isSuspended;
+        $tenant->save();
 
         session()->flash('message', 'Tenant suspension toggled successfully.');
     }

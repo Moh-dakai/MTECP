@@ -22,8 +22,9 @@ class CentralAdminTest extends TestCase
         $tenantId = 'test-store-1';
         $tenant = Tenant::create([
             'id' => $tenantId,
-            'data' => ['name' => 'My Test Store']
+            'name' => 'My Test Store',
         ]);
+        // ensure the tenant has a domain so the view shows links
         $tenant->domains()->create(['domain' => 'test1.localhost']);
 
         // Assert tenant was created
@@ -42,9 +43,11 @@ class CentralAdminTest extends TestCase
             ->call('toggleSuspension', $tenantId)
             ->assertSee('Tenant suspension toggled successfully');
 
-        // Refresh and explicitly retrieve the data attribute
+        // Refresh and ensure the virtual attribute is toggled. The
+        // VirtualColumn trait will decode `data` and make `is_suspended`
+        // available as a normal property, so we can assert directly.
         $tenant->refresh();
-        $this->assertTrue($tenant->data['is_suspended'] ?? false);
+        $this->assertTrue($tenant->is_suspended ?? false);
 
         // 5. Test Deletion
         Livewire::actingAs($admin)
