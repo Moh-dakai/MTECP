@@ -23,10 +23,14 @@ foreach (config('tenancy.central_domains', ['127.0.0.1', 'localhost', 'mtecp.tes
             }
             )->middleware(['auth'])->name('profile');
 
-            // Central Admin Route
-            Route::get('admin/tenants', \App\Livewire\Central\TenantManager::class)
-                ->middleware(['auth'])
-                ->name('admin.tenants');
+            // Central Admin Routes
+            Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
+                Route::get('/tenants', \App\Livewire\Central\TenantManager::class)->name('tenants');
+                Route::get('/categories', \App\Livewire\Admin\CategoryManager::class)->name('categories');
+                Route::get('/products', \App\Livewire\Admin\ProductManager::class)->name('products');
+                Route::get('/orders', \App\Livewire\Admin\OrderManager::class)->name('orders');
+            }
+            );
         });
 }
 
